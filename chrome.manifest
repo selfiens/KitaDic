@@ -1,0 +1,17 @@
+#content	packagename		uri/to/files/ [flags]
+#content	kitadic			jar:chrome/kitadic.jar!/content/
+#content	kitadic			jar:chrome/kitadic.jar!/content/ contentaccessible=yes
+content		kitadic			chrome/content/
+content		kitadic			chrome/content/ contentaccessible=yes
+
+#overlay	chrome://URI-to-be-overlaid					chrome://overlay_URI [flags]
+#overlay	chrome://browser/content/browser.xul		jar:chrome/kitadic.jar!/content/kitadic.xul
+#overlay	chrome://navigator/content/navigator.xul	jar:chrome/kitadic.jar!/content/kitadic.xul
+overlay		chrome://browser/content/browser.xul		chrome://kitadic/content/kitadic.xul
+overlay		chrome://navigator/content/navigator.xul	chrome://kitadic/content/kitadic.xul
+
+#skin		packagename		skinname				path/to/files	[flags]
+skin		kitadic			classic					chrome/skin/classic/kitadic.css
+
+#style chrome://URI-to-style chrome://stylesheet-URI [flags]
+#override chrome://package/type/original-uri.whatever new-resolved-URI [flags]

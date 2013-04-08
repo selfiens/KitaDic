@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{56dadc58-4c5e-4815-8553-d6a737f02fc9}</em:id>
+		<em:name>KitaDic</em:name>
+		<em:version>0.3.027</em:version>
+		<em:description>Move your mouse over an English word and hold CTRL key for 1 second.</em:description>
+		<em:creator>Kita</em:creator>
+		<em:homepageURL>http://kita.springnote.com/pages/33913</em:homepageURL>
+		<em:iconURL>chrome://kitadic/skin/kita.png</em:iconURL>
+		<em:contributor>Ying</em:contributor>
+		<em:aboutURL>chrome://kitadic/content/about.xul</em:aboutURL>
+		<em:extension>true</em:extension>
+		<em:type>2</em:type>
+		<em:targetApplication>
+			<!-- FireFox -->
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.5</em:minVersion>
+				<em:maxVersion>3.6.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>

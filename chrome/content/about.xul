@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window class="dialog"
+	title="KitaDic - About"
+	orient="vertical"
+	autostretch="always"
+	onload="sizeToContent()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- Original template by Jed Brown -->
+
+<groupbox align="center" orient="horizontal">
+<vbox>
+  <text value="KitaDic" style="font-weight: bold; font-size: x-large;"/>
+  <text value="ver. 0.3.027"/>
+  <separator class="thin"/>
+  <text value="Created By:" style="font-weight: bold;"/>
+  <text value="Kita" class="url"
+        onclick="window.open('http://kitas.serveftp.com/ftp/'); window.close();"/>
+  <separator class="thin"/>
+    <text value="How to use" style="font-weight: bold;"/>
+    <text value="Move your mouse over an English word and hold CTRL key for 1 second." />
+  <separator class="thin"/>
+</vbox>
+<spring flex="0"/>
+    <image src="chrome://kitadic/skin/kita.png" />
+    <image src="chrome://kitadic/skin/ying.png" />
+</groupbox>
+
+  <hbox>
+  <spacer flex="1"/>
+   <button label="Close" oncommand="window.close();"/>
+  </hbox>
+
+</window>
