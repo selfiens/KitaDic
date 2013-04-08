@@ -13,63 +13,6 @@
  * 1) the original authors' name and their contacts should remain intact in the source code.
  * 2) the GPL license should remain intact.
  * 3) the modifier should explicitly specify the origin of the software in the source and public introduction.
-
- * HISTORY
-   0.3.027  2010.05.25
-            Fixed CTRL key detection in Firefox for Mac and Linux
-            Removed play button of pronunciation audio file
-   0.3.026  2009.12.22
-            When you follow words inside the KitaDic window, the window location will not be changed.
-   0.3.025  2009.12.16
-            Removed setTimeout function to pass AddOn validator
-            Removed non-essential sections in the definition
-            Added DL, DD styles
-            Adjusted window size
-   0.3.024b 2009.12.11
-            Changed Wiktionay parser
-            Better style
-            Added Google Dictionary Eng-Kor link
-            Removed stem word guessing feature
-   0.3.023b 2009.07.01
-            Using CTRL is now default
-            Fixed text color (which has been affected by the document CSS) 
-            Added CSS injection functionality for more stable display
-            Added handling 404-not-found error response from Wiktionary.org
-            Word-type Preposition is displayed correctly
-            Removed scroll event monitoring
-            Changed font size
-            Changed box shape to round-cornered
-            Fixed persistant window bug when KitaDic is disabled
-   0.3.022b Accepts new Wiktionary Error Message
-   0.3.021b Specified license rule more explicitly, because of a dispute between TestPilot's WikiLook extension.
-   0.3.020b Changed install.rdf to work under FF 3.0.*
-   0.3.019b Added word level
-   0.3.018b Added Status Icon for enabling/disabling KitaDic
-                  Saves KitaDic enable/disable status in preference
-             Does not react to the words in SELECT tag
-                  Cancels definition fetching process when scroll event occurs
-   0.3.017b Better style adjustment
-            Set default delay to 2000ms
-   0.3.016b Do not try to translate numbers
-   0.3.015b Window location fixed
-   0.3.014b Beta State
-   0.3.013a Refactoried
-             Implimented Ajax Request Abortion
-                  Does not react to the words in TEXTAREA or INPUT tags
-   0.3.012a Changed versioning scheme
-   0.2.3.61127 Changed versioning scheme
-               Fixed "empty string" query bug
-   0.2.3.5 / 2006.11.20 Fixed word targeting
-   0.2.3.4 / 2006.11.20 Fixed Link color
-                        Added Unicode word
-                  Changed Naver lookup from Eng-Eng to Eng-Kor / Kor-Eng
-                  Changed Daum lookup from Eng-Eng to Eng-Kor / Kor-Eng
-   0.2.3.3 / 2006.11.19 added Abstract pronoun, Determiner, Collective noun, Interjection types.
-                        list display margin adjusted.
-   0.2.3.2 / 2006.11.13 first public release
-
- * The source code of this Javascript file is available upon request. Please contact the author.
-
  * edit this source with tab space = 3
  *************************/
 
